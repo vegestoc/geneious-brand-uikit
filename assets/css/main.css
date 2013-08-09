@@ -1,0 +1,35 @@
+/*BANNERS
+
+	Add the section banners here, using the format:
+
+	.page-class #container {
+		background-image: url(../img/file@1x.jpg);				<---- Standard, 1x
+		background-image: url(../imgfile@2x.jpg), transparent;  <---- RETINA, 2x
+		}
+
+*/
+
+.homepage #container {
+	background-image: url(../img/homepage-sketch.jpg);
+	background-image: url(../img/homepage-sktech@2x.jpg), transparent;
+	}
+
+	.microbiologists #container {
+		background-image: url(../img/microbiologists-feature.jpg);
+		}
+
+
+/* SUPPORT
+
+	Add the support team photos here, using the format:
+
+	.team-member-class {
+		background-image: url(../img/file@1x.jpg);				<---- Standard, 1x
+		background-image: url(../imgfile@2x.jpg), transparent;  <---- RETINA, 2x
+		}
+
+*/
+	.peter-meintjes {
+		background: url(../img/support-guy.jpg);
+		background: url(../img/support-guy@2x.jpg), url();
+		}
