@@ -10,7 +10,7 @@ Development kit for Geneious Website
 The style of the page is dependent on a class on the body tag:
 
 * `home` for the homepage
-* `targetedhome` with a describing tag, e.g.. `microbiologists` for vocation specific landing pages.
+* `targetedhome` with a describing tag, e.g. `microbiologists` for vocation-specific landing pages.
 
 All relevant elements (the logo, the menu and page-head) will automatically be styled work to the required layout. The HTML of these elements remain the same across all pages.
 
@@ -20,7 +20,7 @@ A class of `here` is added to the `menu-list-item` that is currently active, or 
 
 ### Page-head
 
-Each page's `#main` element starts of with a `.page-head`
+Each page's `#main` element starts off with a `.page-head`
 
 	<header class="page-head">
 		<h1>Title</h1>
@@ -42,7 +42,7 @@ Following the `page-head` are sections referred to as `row`s.
 	
 #### Row Alignment
 
-Rows can be aligned left, right or centre using `row-left`, `row-right` and `row-centre`. These classes complement the `row` class, they do not replace it.
+Rows can be aligned left, right or centre using `row-left`, `row-right` and `row-centre` respectively. These classes complement the `row` class — they do not replace it.
 
 	<div class="row row-left">
 	
@@ -59,7 +59,7 @@ When `row-split` is used, the `section`s are inside a `div.row`.
 
 #### Columnise
 
-When elements must be equal height, a complimentary class of `row-columnise` is added to the `row` element. They can be vertically centred with another complimentary `row-middle`.
+When elements must be of equal height, a complementary class of `row-columnise` is added to the `row` element. They can be vertically-centred with another complementary `row-middle`.
 
 	<div class="row row-split row-columnise row-middle">
 		<section></section>
@@ -83,6 +83,10 @@ Any containing element can be `highlighted` for effect. This works for `row`s, o
 #### Buttons
 
 A `button` is always a `button`, never a `button.button`. An anchor may be transformed into a `.button`.
+	
+	<button>Download</button>
+	
+	<a class="button" href="#">Download</a>
 
 #### Combining Form Controls
 
@@ -90,13 +94,13 @@ Form controls can be preceded and/or followed by either a `label` or `button`. W
 
 	<span class="button-right">
 		<input>
-		<button>
+		<button></button>
 	</span>
 	
 	<span class="button-right label-left">
 		<label></label>
 		<input>
-		<button>
+		<button></button>
 	</span>
 	
 Options are:
@@ -108,30 +112,34 @@ Options are:
 
 #### Fieldset
 
-Form controls that belong in a group, should be wrapped in a `fieldset` an they will be visually locked together.
+Form controls that belong in a group, should be wrapped in a `fieldset` and they will be visually locked together.
 
 	<fieldset>
-		<p><span class="label-left">
+		<p>
+			<span class="label-left">
 			<label></label>
 			<input>
-		</span></p>
+			</span>
+		</p>
 		
-		<p><span class="label-left button-right">
+		<p>
+			<span class="label-left button-right">
 			<label></label>
 			<select>
 				<option></option>
 				<option></option>
 				<option></option>
 			</select>
-			<button>
-		</span></p>
+			<button></button>
+			</span>
+		</p>
 	</fieldset>
 	
 #### Validation
 
-Validation flags can be added to a parent element to flag validation styles. `valid` or `invalid` are options.
+Validation flags can be added to a parent element for flag validation styles. `valid` or `invalid` are options.
 
-If there is an error, it's thrown in the form control container as a `<small class="description">Feedback</small>`.
+If there is an error, it is thrown into the form control container as a `<small class="description">Feedback</small>`.
 
 	<span class="label-left invalid">
 		<label></label>
