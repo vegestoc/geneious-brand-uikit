@@ -146,3 +146,29 @@ If there is an error, it is thrown into the form control container as a `<small 
 		<input>
 		<small class="description"></small>
 	</span>
+	
+### Bars
+
+Bars used in the site contain specific CTAs. The HTML for each bar should be interchangeable, with only the class differentiating the type of bar.
+
+#### Stretch Bars
+
+Stretch bars are used to stretch content across the width of the screen e.g. the Download Bar
+
+	<section class="stretch-bar" id="download-bar">
+		<a href="#" class="button download-button">Download for Mac</a>
+        <span class="other-versions">also <a href="#">Windows</a> and <a href="#">Linux</a></span>
+	<section>
+
+#### Banner
+
+Swapping the class for `banner` and adding a `bannered` class to the `body` element in the HTML moves a stretch bar up to the top of the screen as a notification-like banner.
+
+	<body class="bannered bannered-download-beta">
+	
+	<section class="banner" id="download-bar">
+		<a href="#" class="button download-button">Download for Mac</a>
+        <span class="other-versions">also <a href="#">Windows</a> and <a href="#">Linux</a></span>
+	<section>
+	
+It's useful to add a description class describing the type of banner corresponding to the ID of the element, eg. `bannered-download-bar` or `bannered-beta-bar`.

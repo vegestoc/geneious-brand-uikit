@@ -1097,7 +1097,8 @@ h2 select {
 		border-color: #fff;
 		}
 
-.other-versions {
+.other-versions,
+#beta-bar span {
 	font-size: 13px; font-size: 1.3rem;
 	color: inherit;
 	}
@@ -1794,38 +1795,81 @@ fieldset .label-left {
 			}
 		}
 
-/* DOWNLOAD BAR */
+/* Stretch Bar */
 
-#download-bar {
-	background-color: #f47b20;
+.stretch-bar {
 	margin: 0 -5.55% 100px;
 	margin: 0 -5.55% 10rem;
 	padding: 70px 20%;
 	padding: 7rem 20%;
 	font-size: 23px; font-size: 2.3rem;
-	color: #fff;
 	text-align: center;
 	}
 
+
 	@media screen and (max-width: 575px) {
 
-		#download-bar {
+		.stretch-bar {
 			font-size: 1.8rem;
 			}
 	}
 
 	@media screen and (max-width: 361px) {
 
-		#download-bar {
+		.stretch-bar {
 			font-size: 1.2rem;
 			padding: 70px 10%;
 			}
 	}
 
-	#download-bar .other-versions a {
-		color: #fff;
+	#download-bar {
+			background-color: #f47b20;
+			color: #fff;
+			}
+
+		#download-bar .other-versions a {
+			color: #fff;
+		}
+
+
+/* BANNERS */
+
+.banner {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 20px 0; padding: 2rem 0;
+		font-size: 14px; font-size: 1.4rem;
+		text-align: center;
+		background: #F8F8F8;
 	}
-	
+
+			body.bannered {
+			padding-top: 60px; padding-top: 6rem;
+			}
+
+#beta-bar {
+		background: rgba(0, 198, 158, 0.07);
+		border: 2px dotted rgba(0, 198, 158, 0.07);
+		color: #00C69E;
+		}
+		
+		.bannered.bannered-beta-bar #beta-bar span {
+			font-size: 12px; font-size: 1.2rem;
+			}
+
+		#beta-bar .button {
+			color: #00a686;
+			background: #ffffff;
+			background: rgba(255,255,255,0.85);
+			}
+
+			#beta-bar .button:hover {
+				background-color: #00C69E;
+				color: #fff;
+				}
+
 /* FOOTER */
 
 
