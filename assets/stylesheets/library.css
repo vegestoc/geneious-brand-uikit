@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../font/fontawesome-webfont.eot?v=3.2.1');
-  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+  src: url('../fonts/fontawesome-webfont.eot?v=3.2.1');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../fonts/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -57,14 +57,14 @@ p {
 	}
 
 	.geneious-logo .logo {
-		background-image: url(../img/geneious-logo.png);
-		background-image: url(../img/geneious-logo.svg), none;
+		background-image: url(../images/geneious-logo.png);
+		background-image: url(../images/geneious-logo.svg), none;
 		padding-top: 30%;
 		}
 
 		.targetedhome .menu .geneious-logo .logo {
-			background-image: url(../img/geneious-logo-white.png);
-			background-image: url(../img/geneious-logo-white.svg), none;
+			background-image: url(../images/geneious-logo-white.png);
+			background-image: url(../images/geneious-logo-white.svg), none;
 			}
 
 		.menu .geneious-logo {
@@ -414,7 +414,7 @@ p {
 		text-shadow: 0.1em -0.1em 0.25em #cee4d4,0 0 0.5em #cee4d4;
 		}
 .lt-ie9 .homepage #container {
-	background-image: url("../img/homepage-feature.jpg");
+	background-image: url("../images/homepage-feature.jpg");
 	background-position: 55% -300px;
 	}
 
