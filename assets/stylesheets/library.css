@@ -141,6 +141,7 @@ p {
 	}
 
     .here a:after { content: "."; position: absolute; left: 50%; bottom: 0.5em; margin-left: -0.125em;font-size: 24px; color: #f47b20; font-family: Futura, Arial Rounded, sans-serif;}
+    .targetedhome .here a:after { color: #fff;}
 
 	.menu-list-item .action {
 		color: #d56700;
