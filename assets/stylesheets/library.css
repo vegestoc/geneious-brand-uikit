@@ -771,15 +771,15 @@ h2 select {
 	margin: 0 auto;
 	}
 
-	.row figure:after {
+/*	.row figure:after {
 		content: "";
 		display: block;
-		background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 65%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(65%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 65%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 65%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 65%); /* IE10+ */
-		background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 65%); /* W3C */
+		background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 65%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(65%,rgba(255,255,255,1)));
+		background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 65%);
+		background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 65%);
+		background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 65%);
+		background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 65%);
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -788,13 +788,13 @@ h2 select {
 		}
 
 		.highlighted figure:after {
-			background: -moz-linear-gradient(top,  rgba(244, 123, 32, 0) 0%,  rgba(244, 123, 32, 1) 65%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(244, 123, 32, 0)), color-stop(65%, rgba(244, 123, 32, 1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top,  rgba(244, 123, 32, 0) 0%, rgba(244, 123, 32,1) 65%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top, rgba(244, 123, 32, 0) 0%, rgba(244, 123, 32,1) 65%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top, rgba(244, 123, 32, 0) 0%, rgba(244, 123, 32,1) 65%); /* IE10+ */
-			background: linear-gradient(to bottom, rgba(244, 123, 32,0) 0%,rgba(244, 123, 32,1) 65%); /* W3C */
-			}
+			background: -moz-linear-gradient(top,  rgba(244, 123, 32, 0) 0%,  rgba(244, 123, 32, 1) 65%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(244, 123, 32, 0)), color-stop(65%, rgba(244, 123, 32, 1)));
+			background: -webkit-linear-gradient(top,  rgba(244, 123, 32, 0) 0%, rgba(244, 123, 32,1) 65%);
+			background: -o-linear-gradient(top, rgba(244, 123, 32, 0) 0%, rgba(244, 123, 32,1) 65%);
+			background: -ms-linear-gradient(top, rgba(244, 123, 32, 0) 0%, rgba(244, 123, 32,1) 65%);
+			background: linear-gradient(to bottom, rgba(244, 123, 32,0) 0%,rgba(244, 123, 32,1) 65%);
+			}*/
 
 
 	.row h2 em {
